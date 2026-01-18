@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .disabled > label {
+        color: #999;
+        opacity: .5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="browser-style">
+      <input type="checkbox" id="quickentry"/>
+      <label for="quickentry">Show Quick Entry dialog instead of saving task directly</label>
+    </div>
+    <div>
+      <label for="when">List to add tasks to:</label>
+      <select class="browser-style" id="when">
+        <option value="inbox">Inbox</option>
+        <option value="today">Today</option>
+        <option value="tomorrow">Tomorrow</option>
+        <option value="anytime">Anytime</option>
+        <option value="someday">Someday</option>
+      </select>
+    </div>
+    <div class="browser-style" id="reveal-container">
+      <input type="checkbox" id="reveal"/>
+      <label for="reveal">Navigate to newly created tasks</label>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Things Quick Entry",
+  "description": "Send the current tab to Things 3 for Mac with pre-filled title and URL.",
+  "version": "2.0.0",
+  "author": "Sridhar Katakam",
+  "homepage_url": "https://github.com/srikat/things-quick-entry",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "srikat+things-quick-entry@gmail.com"
+    }
+  },
+  "icons": {
+    "256": "images/things.png"
+  },
+  "permissions": ["tabs", "storage"],
+  "options_ui": {
+    "page": "options/options.html"
+  },
+  "action": {
+    "default_icon": "images/things.png",
+    "default_title": "Things Quick Entry"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Send current tab to Things"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
