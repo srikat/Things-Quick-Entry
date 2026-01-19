@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Things Quick Entry",
   "description": "Send the current tab to Things 3 for Mac with pre-filled title and URL.",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "author": "Sridhar Katakam",
   "homepage_url": "https://github.com/srikat/things-quick-entry",
   "browser_specific_settings": {
