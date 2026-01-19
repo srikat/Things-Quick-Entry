@@ -20,13 +20,13 @@ Currently, this is a personal fork. To install it:
 3. Click **Load Temporary Add-on** and select the `manifest.json` file.
 
 ## Configuration
-You can adjust behavior in the extension options:
+You can adjust behavior in the extension options.
 - **Show Quick Entry:** Toggle whether the Things Quick Entry dialog appears or if the task is sent silently.
 - **List selection** Choose where the task should appear (Inbox, Today, etc.) when Quick Entry dialog is set not to be shown.
 - **Select newly created task:** Choose whether to highlight/select the newly created task in Things 3 or not. Things window will still become active regardless of this setting.
 
 ## Credits
-This project is a Manifest V3 fork of the original "Send to Things" extension by Philipp Kewisch. 
+This project is a Manifest V3 fork of the original ["Send to Things" extension by Philipp Kewisch](https://addons.mozilla.org/en-US/firefox/addon/send-to-things/).
 
 Modified and maintained by **Sridhar Katakam**.
 
