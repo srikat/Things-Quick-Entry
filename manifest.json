@@ -27,8 +27,8 @@
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Ctrl+Shift+S",
-        "mac": "Command+Shift+S"
+        "default": "Alt+T",
+        "mac": "MacCtrl+T"
       },
       "description": "Send current tab to Things"
     }

@@ -10,7 +10,7 @@ The native Things 3 "Quick Entry with Autofill" feature often struggles to grab 
 ## Features
 - **One-Click Entry:** Send any webpage to your Things Inbox instantly.
 - **Pre-filled Data:** Automatically sets the task title to the webpage title and the notes to the URL.
-- **Customizable Shortcuts:** Defaulted to `Cmd+Shift+S` on Mac and `Ctrl+Shift+S` on Windows/Linux.
+- **Customizable Shortcuts:** Defaulted to `Ctrl+T` on Mac and `Alt+T` on Windows/Linux.
 - **Manifest V3:** Modernized for long-term compatibility and performance.
 
 ## Installation
