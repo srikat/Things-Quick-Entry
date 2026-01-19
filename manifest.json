@@ -7,7 +7,10 @@
   "homepage_url": "https://github.com/srikat/things-quick-entry",
   "browser_specific_settings": {
     "gecko": {
-      "id": "things-quick-entry@sridharkatakam.com"
+      "id": "things-quick-entry@sridharkatakam.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "icons": {
@@ -32,8 +35,5 @@
   },
   "background": {
     "scripts": ["background.js"]
-  },
-  "data_collection_permissions": {
-    "is_required": false
   }
 }
