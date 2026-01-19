@@ -15,7 +15,7 @@ The native Things 3 "Quick Entry with Autofill" feature often struggles to grab 
 
 ## Installation
 Currently, this is a personal fork. To install it:
-1. Download the latest release `.xpi` file (or clone this repo).
+1. Download the repo.
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 3. Click **Load Temporary Add-on** and select the `manifest.json` file.
 
