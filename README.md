@@ -1,4 +1,4 @@
-# Things Quick Entry
+# Things Quick Entry for Firefox
 
 A Firefox extension that sends the current tab's title and URL to **Things 3**.
 
@@ -14,6 +14,8 @@ The native Things 3 "Quick Entry with Autofill" feature often struggles to grab 
 - **Manifest V3:** Modernized for long-term compatibility and performance.
 
 ## Installation
+**Update**: This is now in Firefox add-ons directory [here](https://addons.mozilla.org/en-US/firefox/addon/things-quick-entry/).
+
 Currently, this is a personal fork. To install it:
 1. Download the repo.
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
